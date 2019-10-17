@@ -1,0 +1,22 @@
+{
+    "elasticsearch": {
+        "url":"https://akbligwzev:9yetpsc27@app-outmind-3799119117.eu-central-1.bonsaisearch.net:",
+        "port":"443",
+        "elasticsearchIndices": {
+            "COMPANY": {
+              "index":"product",
+              "type":"PRODUCT",
+              "collectionName":"products"
+            }
+        }
+    },
+    "mongodb": {
+      "url": "mongodb://achraf:achraf123@ds057806.mlab.com:57806/outmind",
+      "username":"achraf",
+      "password":"achraf123",
+      "server_ip":"ds057806.mlab.com:57806",
+      "local_server_ip":"localhost",
+      "port":"57806",
+      "databaseName":"outmind"
+    }
+}
